@@ -6,6 +6,7 @@
         <exploded>true</exploded>
         <module>demo</module>
         <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
       </options>
     </properties>
     <root id="root">
@@ -20,7 +21,7 @@
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/target/demo-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="demo/web/웹" />
+      <element id="javaee-facet-resources" facet="demo/web/Web" />
     </root>
   </artifact>
 </component>
